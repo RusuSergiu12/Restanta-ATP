@@ -1,6 +1,8 @@
 #include <iostream>
-using namespace std;
+#include <stdlib.h>
+#include "Create_Table.h"
+
 
 int main() {
-	// clear
+	CREATE_TABLE students;
 }
