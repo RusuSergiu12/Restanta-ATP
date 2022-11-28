@@ -9,7 +9,7 @@ private:
 	std::string default_value;
 
 public:
-	CREATE_TABLE(std::string name, std::string type, int size, std::string default_value){
+	CREATE_TABLE(std::string name, std::string type, int size, std::string default_value)){
 		this->name = name;
 		this->type = type;
 		this->size = size;
@@ -21,5 +21,14 @@ public:
 		this->size = 0;
 		this->default_value = "";
 	}
-	
+	getAll() {
+		return this->name;
+		return this->type;
+		return this->size;
+		return this->default_value;
+	}
+
+	~CREATE_TABLE() {
+
+	}
 };

@@ -4,5 +4,7 @@
 
 
 int main() {
-	CREATE_TABLE students;
+	CREATE_TABLE students("Student", "Integer", 1, " - ");
+
+	return 0;
 }
